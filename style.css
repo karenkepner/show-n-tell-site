@@ -1,0 +1,67 @@
+/*styles for first day website*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	background-color: #f4ebe1;
+}
+
+header {
+	display: block;
+	font-family: 'Libre Baskerville', serif;
+	background-color: #72522b;
+	min-height: 160px;
+}
+
+a {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-decoration: none;
+	color: #ef974f;
+}
+
+.main-nav {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+	margin-top: 100px;
+}
+
+.main-nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 25px;
+	font-size: 1.3em;
+}
+
+.logo {
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+/*main section css*/
+
+
+/*main {
+	display: flex;
+}*/
+
+.trail-detail {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.trail {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	background-color: #9d9d9d;
+}
+
+.trail h2 {
+	margin: 10px auto;
+}
