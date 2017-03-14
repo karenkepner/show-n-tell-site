@@ -13,6 +13,7 @@ header {
 	font-family: 'Libre Baskerville', serif;
 	background-color: #72522b;
 	min-height: 160px;
+
 }
 
 a {
@@ -28,6 +29,7 @@ a {
 	width: 240px;
 	background-color: #ef974f;
 	border-radius: 5px;
+	vertical-align: bottom;
 }
 .styled-select select {
    background: transparent;
@@ -44,6 +46,9 @@ a {
 	margin-top: 60px;
 }
 
+#nav-list {
+	margin: 0;
+}
 .main-nav ul li {
 	display: inline-block;
 	list-style: none;
@@ -52,6 +57,7 @@ a {
 }
 
 .logo {
+	display: inline-block;
 	margin-left: 25px;
 	margin-top: 10px;
 }
@@ -59,12 +65,14 @@ a {
 /*main section css*/
 
 
-/*main {
+main {
 	display: flex;
-}*/
+	flex-direction: column;
+}
 
 .trail-detail {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -80,4 +88,38 @@ a {
 
 .trail h2 {
 	margin: 10px auto;
+}
+.bike-ipsum {
+	padding: 10px;
+}
+
+.left-text {
+	float: left;
+	width: 50%;
+}
+
+.right-text {
+	float: right;
+	width: 50%;
+}
+
+footer {
+	text-align: center;
+}
+
+@media screen and (max-width: 990px) {
+	header {
+		min-height: 250px;
+	}
+
+	.main-nav {
+		/*display: block;*/
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.logo {
+		display: block;
+		margin: 0 auto;
+	}
 }
